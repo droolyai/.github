@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible problem without private data or secrets.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not submit vulnerabilities, credentials, wallet secrets, private data, or unpublished media here.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Provide the smallest safe set of steps that reproduces the problem.
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Version or commit
+      placeholder: Commit SHA, release, or deployment URL
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, operating system, wallet type, or runtime—without account identifiers.
+
