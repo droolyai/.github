@@ -1,0 +1,15 @@
+# Drooly Inc. — org-wide funding defaults.
+#
+# This file lives in the org's `.github` repository, so GitHub applies it as the
+# DEFAULT for every repository in the droolyai org that does not define its own
+# .github/FUNDING.yml. One file → a "Sponsor" button on all of them.
+#
+# `custom` works today with no enrolment. The `github:` line stays commented
+# until the owner has actually completed GitHub Sponsors onboarding (identity +
+# payout setup — an owner-only action). Uncommenting it before enrolment renders
+# a Sponsor entry that 404s, which is worse than not having one.
+
+custom: ["https://drooly.ai/support"]
+
+# Uncomment ONLY after GitHub Sponsors onboarding is live for this account:
+# github: [kingofqueens6ix]
